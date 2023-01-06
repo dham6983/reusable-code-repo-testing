@@ -1,0 +1,11 @@
+name: Calling reusable workflows from a different repo
+
+
+on:
+  workflow_dispatch:
+
+jobs:
+  calling_resuable_workflos_from_different_repo_using_branch:
+    uses: dham6983/reusable-github-actions/.github/workflows/reusable-gha.yml@main
+
+
